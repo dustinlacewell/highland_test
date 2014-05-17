@@ -1,2 +1,3 @@
 FROM busybox
-CMD ["sleep", "999999"]
+ADD stuck /stuck
+CMD ["/stuck"]
